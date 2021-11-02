@@ -3,7 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import { useSelector, useDispatch } from 'react-redux';
 import { getUser } from './redux/ducks/user';
-// import axios from 'axios'
+import axios from 'axios'
 
 
 
