@@ -19,7 +19,8 @@ function App() {
     // console.log("calling getUser")
     // console.log(getUser.type)   // will get "Users/getUser"
 
-    dispatch(getUser());
+    // dispatch(getUser());
+    dispatch(getUser({ test: 'hi', id: 1 }));   // pass in props
     // axios.get(`https://my-json-server.typicode.com/derekchancts/demo/users`)
     // axios.get(`http://localhost:5000/users`)
     //  .then(res => {

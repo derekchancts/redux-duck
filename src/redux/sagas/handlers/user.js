@@ -6,6 +6,9 @@ import { requestGetUser } from '../requests/user';
 
 export function* handleGetUser(action) {
   try {
+    const { payload } = action;  // get the props here
+    // console.log(payload);
+
     const response = yield call(requestGetUser)
     // console.log(response)
     // const { data } = response;
