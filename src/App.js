@@ -30,7 +30,7 @@ function App() {
   // console.log(todos)
 
   
-  const users = useSelector(state => state.user);
+  const users = useSelector(state => state.user.users);
   // console.log(users)
 
 
